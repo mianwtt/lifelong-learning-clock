@@ -1,53 +1,80 @@
 # 终身学习时钟
 
-一款面向长期学习与专注习惯培养的 Windows 桌面时钟。它把时间展示、学习计时、休息提醒和阶段统计集中在一个轻量窗口中，帮助你更直观地了解今天学了多久，并保持稳定的学习节奏。
+<p align="center">
+  <img src="assets/main-window.png" width="252" alt="终身学习时钟主界面">
+</p>
 
-## 主要功能
+<p align="center">
+  一款轻量、直观的 Windows 桌面学习时钟。<br>
+  记录今天的投入，保持长期而稳定的学习节奏。
+</p>
 
-- **学习与休息循环**：可设置学习间隔和休息时长，并在状态切换时显示提醒。
-- **每日学习目标**：设置每天的学习目标，查看当前完成进度。
-- **学习时间统计**：记录当天学习时长，并展示本周与上周的学习数据。
-- **手动补记时长**：遗漏计时时可以补记学习时间。
-- **桌面悬浮显示**：支持窗口置顶、拖动和屏幕边缘吸附。
-- **个性化外观**：支持自定义壁纸、透明度、显示比例和个人格言。
-- **本地数据保存**：学习记录和设置保存在本机。
+<p align="center">
+  <a href="https://github.com/mianwtt/lifelong-learning-clock/releases/download/v1.0.0/Lifelong-Learning-Clock-v1.0.0.exe"><strong>⬇ 下载 Windows 版本 v1.0.0</strong></a>
+  ·
+  <a href="https://github.com/mianwtt/lifelong-learning-clock/releases/tag/v1.0.0">查看发布说明</a>
+</p>
+
+---
+
+## 软件界面
+
+| 主界面 | 设置界面 |
+|:---:|:---:|
+| <img src="assets/main-window.png" width="252" alt="学习时钟主界面"> | <img src="assets/settings-window.png" width="336" alt="学习时钟设置界面"> |
+| 查看当天计时、目标进度及每周统计 | 调整每日目标、学习间隔、休息时长和外观 |
+
+## 功能亮点
+
+- **学习与休息循环**：设置学习间隔与休息时长，到点自动提醒。
+- **每日学习目标**：通过进度条直观看到当天完成情况。
+- **学习时间统计**：展示今日、本周和上周的学习时长。
+- **手动补记时长**：遗漏计时时可快速补记 10 分钟。
+- **桌面悬浮显示**：支持置顶、拖动和屏幕边缘吸附。
+- **个性化外观**：自定义背景图片、透明度、窗口大小和励志语。
+- **本地数据保存**：学习记录和软件设置保存在本机。
 - **单实例运行**：避免重复打开多个时钟窗口。
 
 ## 下载与运行
 
-1. 前往仓库的 **Releases** 页面。
-2. 下载最新版本的 `Lifelong-Learning-Clock-v1.0.0.exe`。
-3. 双击文件即可运行，无需安装。
+推荐从 GitHub Releases 下载：
 
-> 当前版本面向 Windows 桌面系统。程序暂未进行数字签名，首次运行时 Windows 可能显示安全提示；请确认文件来自本仓库后再运行。
+> **[下载 Lifelong-Learning-Clock-v1.0.0.exe](https://github.com/mianwtt/lifelong-learning-clock/releases/download/v1.0.0/Lifelong-Learning-Clock-v1.0.0.exe)**
 
-## 使用建议
+仓库中也保留了一份可执行程序：
 
-1. 设置适合自己的每日学习目标。
-2. 设置一轮学习时间与休息时间。
-3. 开始学习，让时钟自动累计有效学习时长。
-4. 如果忘记启动计时，可使用补记功能完善当天记录。
-5. 每周回顾本周与上周的数据，逐步调整学习节奏。
+> [`downloads/Lifelong-Learning-Clock-v1.0.0.exe`](downloads/Lifelong-Learning-Clock-v1.0.0.exe)
+
+下载后双击即可运行，无需安装。
+
+> [!NOTE]
+> 当前版本面向 Windows 桌面系统。程序暂未进行数字签名，首次运行时 Windows 可能显示安全提示；请确认下载地址来自本仓库后再运行。
+
+## 使用方法
+
+1. 打开软件，在右上角进入设置。
+2. 设置每日目标、学习间隔和休息时长。
+3. 点击“开始 / 继续”开始累计学习时间。
+4. 学习中断时点击“暂停”，遗漏计时时可使用“+10 分钟补记”。
+5. 每周查看本周与上周统计，逐步调整学习节奏。
 
 ## 文件校验
 
-当前发布文件：`Lifelong-Learning-Clock-v1.0.0.exe`
+发布文件：`Lifelong-Learning-Clock-v1.0.0.exe`
 
 ```text
 SHA-256: AB9A2FA2023BC830817F3D578CC1ADC47AF903DA8CE6EAC6F79AFB3BFBD7883F
 ```
 
-在 PowerShell 中可以使用以下命令核对文件：
+在 PowerShell 中核对：
 
 ```powershell
 Get-FileHash ".\Lifelong-Learning-Clock-v1.0.0.exe" -Algorithm SHA256
 ```
 
-输出应与上面的 SHA-256 值一致。
-
 ## 问题反馈
 
-如果你遇到问题，可以在仓库的 **Issues** 页面反馈。建议同时提供：
+遇到问题请前往 [Issues](https://github.com/mianwtt/lifelong-learning-clock/issues) 提交反馈，并尽量附上：
 
 - Windows 版本
 - 软件版本
@@ -61,3 +88,4 @@ Get-FileHash ".\Lifelong-Learning-Clock-v1.0.0.exe" -Algorithm SHA256
 Copyright © 2026. All rights reserved.
 
 当前仓库用于发布可执行程序和使用说明，未附带开源许可证。除法律明确允许的情形外，未经作者许可，不得修改、反编译或再次分发本软件。
+
