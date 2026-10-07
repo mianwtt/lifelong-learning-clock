@@ -16,7 +16,7 @@
 ## 下载与运行
 
 1. 前往仓库的 **Releases** 页面。
-2. 下载最新版本的 `终身学习时钟.exe`。
+2. 下载最新版本的 `Lifelong-Learning-Clock-v1.0.0.exe`。
 3. 双击文件即可运行，无需安装。
 
 > 当前版本面向 Windows 桌面系统。程序暂未进行数字签名，首次运行时 Windows 可能显示安全提示；请确认文件来自本仓库后再运行。
@@ -31,7 +31,7 @@
 
 ## 文件校验
 
-当前发布文件：`终身学习时钟.exe`
+当前发布文件：`Lifelong-Learning-Clock-v1.0.0.exe`
 
 ```text
 SHA-256: AB9A2FA2023BC830817F3D578CC1ADC47AF903DA8CE6EAC6F79AFB3BFBD7883F
@@ -40,7 +40,7 @@ SHA-256: AB9A2FA2023BC830817F3D578CC1ADC47AF903DA8CE6EAC6F79AFB3BFBD7883F
 在 PowerShell 中可以使用以下命令核对文件：
 
 ```powershell
-Get-FileHash ".\终身学习时钟.exe" -Algorithm SHA256
+Get-FileHash ".\Lifelong-Learning-Clock-v1.0.0.exe" -Algorithm SHA256
 ```
 
 输出应与上面的 SHA-256 值一致。
@@ -61,4 +61,3 @@ Get-FileHash ".\终身学习时钟.exe" -Algorithm SHA256
 Copyright © 2026. All rights reserved.
 
 当前仓库用于发布可执行程序和使用说明，未附带开源许可证。除法律明确允许的情形外，未经作者许可，不得修改、反编译或再次分发本软件。
-
